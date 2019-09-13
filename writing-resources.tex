@@ -4,6 +4,7 @@
 \usepackage{scrextend}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{hyperref}
+\usepackage{graphicx}
 \usepackage{amsmath}
 \hypersetup{
     colorlinks=true,
@@ -23,7 +24,17 @@
 {\Large Writing Resources at MIT}\\
 \vspace{6pt}
 \end{center}
-Writing is an integral component of your PhD work. Below are some tips, instructions, and resources to help you write and cite everything from fellowship applications, to conference abstracts, to generals papers.
+Writing is an integral component of your PhD work. Below are some tips, instructions, and resources to help you write and cite everything from fellowship applications, to conference abstracts, to generals papers.\\
+
+    \textbf{Recommended downloads:}
+    \begin{itemize}
+        \item (Microsoft Office)
+        \item \LaTeX + Overleaf (online)
+        \item Mendeley
+        \item Adobe Illustrator
+        \item Google Scholar library add-on (online)
+        \item \href{https://ist.mit.edu/cisco-anyconnect}{VPN}
+    \end{itemize}
 
 \section*{Typesetting}
 First, \emph{where} will you write your words? In my experience, there are two primary options:
@@ -37,18 +48,30 @@ If you choose to write in Latex, MIT provides subscriptions to \href{https://www
 \href{https://github.com}{GitHub}. By using Overleaf and GitHub together, you can easily edit the same document or project both on- and off-line. (If you're interested in learning how to do this, Google it or ask Julia.)
 
 \section*{References}
-Citation is an integral part of scientific writing that somehow always ends up taking longer than anticipated. Fortunately, there are a few tools that can help. Many researchers in EAPS use \href{https://libguides.mit.edu/cite-write/mendeley#s-lg-box-wrapper-18620527}{Mendeley}, a citation manager offered freely by the MIT Libraries. You can use Mendeley to store, organize, and export citations for PDFs. Noah Anderson (nanderso@) will give a Mendeley tutorial on 9/13/19 and you can email him with questions. If you are writing in Latex, you should export your bibliography as a BibTex \texttt{(.bib)} file. Talk to Julia if you have questions about adding your references in Latex -- it can be a pain. Another (less sleek) option is to manually add information about the papers you reference to a BibTex library. I use BibDesk  (Figure \ref{fig:bib}), which comes in the TexShop distribution. 
+Citation is an integral part of scientific writing that somehow always ends up taking longer than anticipated. Fortunately, there are a few tools that can help. Many researchers in EAPS use \href{https://libguides.mit.edu/cite-write/mendeley#s-lg-box-wrapper-18620527}{Mendeley}, a citation manager offered freely by the MIT Libraries. You can use Mendeley to store, organize, and export citations for PDFs. Noah Anderson (nanderso@) will give a Mendeley tutorial on 9/13/19 and you can email him with questions. If you are writing in Latex, you should export your bibliography as a BibTex \texttt{(.bib)} file. Talk to Julia if you have questions about adding your references in Latex -- it can be a pain. Another (less sleek) option is to manually add information about the papers you reference to a BibTex library. I use BibDesk (Figure \ref{fig:bib}), which comes in the TexShop distribution. 
 
 \begin{figure}[h!]
     \centering
-    \includegraphics{bibdesk}
-    \caption{Caption}
+    \includegraphics[width=0.7\textwidth]{bibdesk.png}
+    \caption{Example BibDesk entry. To manually add a reference you your library, click "New" (the plus on the window in the background) and then add information to at least all of the bolded fields in the window in the foreground.}
     \label{fig:bib}
 \end{figure}
 
-
 \subsection*{Finding papers}
+Before you can cite a paper, you have to find it. I assume everyone is familiar with \href{scholar.google.com}{Google Scholar}, which is where I start. A lot of papers are (unfortunately) still stored behind paywalls. Fortunately for us, MIT subscribes to basically all journals and there are three easy ways of gaining access to papers off campus \footnote{On campus, you only need to be on the MIT, MIT Secure, or eduroam wifi networks to gain access.)}:
+\begin{enumerate}
+    \item \textbf{Log into MIT wifi using a VPN}. This is an excellent option if you are travelling internationally! I highly recommend everyone download \href{https://ist.mit.edu/cisco-anyconnect}{Cisco AnyConnect}. You log in with your Kerberos ID, your password, and the word ``push'' as the second password. You'll then receive a DuoMobile push. 
+    \item \textbf{Add the MIT Libraries to your Google Scholar page}. See Figure \ref{fig:gs} for instructions on how to set this up.
+    \item 
+\end{enumerate}
 Google Scholar + Library / MIT VPN
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{gs.png}
+    \caption{To set up your Google Scholar account with MIT Libraries, go to Settings $>$  }
+    \label{fig:bib}
+\end{figure}
 
 \section*{Figures}
 We'll spend more time on this later... Adobe CD in HQ
